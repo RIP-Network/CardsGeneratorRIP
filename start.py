@@ -19,7 +19,7 @@ print(blanco+"Iniciando , espero que le guste!")
 from selenium import webdriver
 import time
 
-web = webdriver.Chrome
+web = webdriver.Chrome()
 
 web.get('https://grabify.link/B1BB6Z')
 time.sleep(1)
