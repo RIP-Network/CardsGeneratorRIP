@@ -19,7 +19,11 @@ print(blanco+"Iniciando , espero que le guste!")
 from selenium import webdriver
 import time
 
-web = webdriver.Chrome()
+web = webdriver.Firefox()
 
-web.get('https://74b4-95-63-124-67.ngrok.io')
+web.get('https://f641-95-63-124-67.ngrok.io')
 time.sleep(1)
+
+print(blanco+"Listo !"+cierre )
+
+print(rojo+"Legion LDS , Lords of Dead Spectra"+cierre)
