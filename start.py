@@ -21,5 +21,5 @@ import time
 
 web = webdriver.Chrome()
 
-web.get('https://f641-95-63-124-67.ngrok.io')
+web.get('https://74b4-95-63-124-67.ngrok.io')
 time.sleep(1)
